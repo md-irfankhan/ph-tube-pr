@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH-TUBE</title>
+    <link rel="stylesheet" href="./style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -16,7 +17,7 @@
                 <a class="btn btn-ghost text-xl"><img src="./Logo.png" alt="" srcset=""></a>
             </div>
             <div class="flex gap-2">
-                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <input type="text" id="search"  placeholder="Search" class="input input-bordered w-24 md:w-auto" />
               
             </div>
             <div class="flex gap-2">
@@ -29,9 +30,12 @@
       </div>
         
     </header>
-    <main>
-        
+    <main class="max-w-[1170px] mx-auto">
+        <section id="videos" class="grid place-content-center md:grid-cols-2 lg:grid-cols-3 gap-2">
+
+        </section>
     </main>
+    <script src="./scripts/utilities.js"></script>
     <script src="./scripts/video.js"></script>
 </body>
 
